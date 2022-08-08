@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+
+<!------------------ Engineering Stories ------------------->
+
+
+<head>
+    <meta name = "viewport" content="with=device-width, initial-scale = 1.0">
+    <title>Engineering Binod</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+
+<!------------------header------------------>    
+
+<section class ="sub_header">
+    <nav>
+        <a href="index.html"><img src ="images/Logo_EB.png"></a>
+        <div class = "nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">VIDEOS</a></li>
+                <li><a href="">BLOGS</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">LOGIN</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+    </nav>
+
+<h1>About Us</h1>
+</section>
+
+<!-------------about us content-------------->
+<section class="about_us">
+    <div class="row">
+        <div class ="about_col">
+            <h1>We inspire with our Stories</h1>
+            <p>
+                We beleive we can change the future with our experiences and give others the lesson we learned in the process.
+                Every single experince have some impact and your story can lead the world to the better future.               
+            </p>
+            <a href="" class="hero-btn red_btn">Explore Now</a>
+        </div>
+        <div class ="about_col">
+            <img src ="images/IMG20200301000118.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<!--------------- Fotter ------------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        I'm just an student like you, trying new things learning failing and trying.
+    </p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+
+    </div>
+    <p>Made with <i class="fa fa-heart"></i><br>-Binod </p>
+</section>
+
+
+
+<!------------JavaScript for toggel Menu-------------->
+<script>
+    var navLinks = document.getElementById("navLinks"); 
+    function showMenu()
+    {
+        navLinks.style.right ="0";    
+    }
+
+    function hideMenu()
+    {
+        navLinks.style.right ="-200px";    
+    }
+
+  
+</script>
+
+
+
+
+</body>   
+</html>
